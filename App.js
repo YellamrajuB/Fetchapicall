@@ -10,18 +10,18 @@ export default function App() {
   let [source, setSource] = React.useState('')
 
   const fetchApiCall = () => {
-
-    fetch("https://psmartapitest.apps.internal.pioneer-qa.humana.com/api/Login/LogIn", {
+//Used public url
+    fetch("http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json", {
 
      
 
       "method": "POST",
 
       "headers": {
-
-        "x-rapidapi-host": "https://psmartapitest.apps.internal.pioneer-qa.humana.com/api/Login/LogIn",
-
-        "x-rapidapi-key": "9f4ddc39-ec42-4063-b7f3-c42f65af8f55"
+   //Used public url
+        "x-rapidapi-host": "http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json",
+//Use public url api key
+        "x-rapidapi-key": ""
 
       }
 
